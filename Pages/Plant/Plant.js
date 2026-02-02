@@ -16,6 +16,8 @@ function goBack() {
         window.location.href = "../Stomach/Stomach.html";
     } else if (plantId > 36 && plantId <= 48) {
         window.location.href = "../Lungs/Lungs.html";
+    } else if (plantId > 48 && plantId <= 60) {
+        window.location.href = "../Brain/Brain.html";
     }
 }
 
@@ -297,9 +299,21 @@ if (plantId === "47") {
 }
 
 if (plantId === "48") {
-    image.src = "";
-    name.textContent = "";
-    information.textContent = "";
+    image.src = "../../Images/Pisha.jpg";
+    name.textContent = "Pisha";
+    information.textContent = "VETITË:\n" + "Sythet e pishës përmbajnë esencë (të pasur me pinene), rrëshirë, tanine, vitaminë C, K, etj., karotinë, glukozide etj. Në saje të kësaj përmbajtjeje, droga përdoret si zbutëse e pezmatimit të rrugëve të frymëmarrjes (kollë, bronkit, etj.) dhe si mjet diuretik që këshillohet në pielit, cistit e uretrit. Nga jashtë sythet e pishës përdoren në banja me veprim antiseptik e cikatrizues.\n\n\n" + "PËRGATITJA E PËRDORIMI:\n" + "Një lugë kafeje me sythe hidhen në një enë ku shtohet një gotë me ujë që zien; ena mbulohet me kapak, lihet 15 minuta dhe pastaj përmbajtja kullohet dhe lëngu pihet 2 deri 3 doza të tilla të ngrohta gjatë ditës.";
+}
+
+if (plantId === "49") {
+    image.src = "../../Images/Sherbela.jpg";
+    name.textContent = "Sherbela";
+    information.textContent = "VETITË:\n" + "Gjethet e sherbelës, në saje të esencës (të pasur në tujone), tanineve, substancave të hidhura etj., kanë veti të pakësojnë djersitjen (ky veprim shfaqet dy orë pas pirjes së çajit dhe zgjat disa ditë) dhe të shtojnë qumështin te gratë me fëmijë në gji. Për të pakësuar djersitjen përdoret, në radhë të parë, në rastet e djersitjes së tepruar gjatë natës, në klimakter, pubertet dhe në sëmundje të mushkërive. Droga është e efektshme kundër heqjes së barkut, veçanërisht kur diarreja shoqërohet me një dobësim të muskulaturës së traktit tretës (atoni gastro-intestinale). Në formën e çajit rekomandohet në trazira nervore, në të marrë të mendve, e në gjendje ligështimi. Në saje të hormoneve që përmban, droga ka tek femrat veprim oestrogjen. Sherbela rekomandohet edhe si mjet që rregullon dhe lehtëson menstruacionet (amenore, dismenore, etj.) dhe fekondimin. Droga këshillohet edhe për të normalizuar çrregullime të tretjes dhe në sëmundje të fshikëzës së tëmthit dhe të mëlçisë. Çaji i sherbelës pengon zhvillimin dhe rritjen e mikroorganizmave (antiseptik), prandaj përdoret në formë gargare dhe kolutore në acarimet e zgavrës së gojës dhe në hemorragjitë e mishrave të dhëmbëve. Në formën e ekstraktit alkoolik përdoret për t’i bërë masazh kokës në rastin e rënies së flokëve.\n\n\n" + "PËRGATITJA E PËRDORIMI:\n" + "Një lugë gjelle me drogë të grimcuar zhyttet në një gotë me ujë të valuar; ena mbulohet me kapak, lihet në qetësi 15 minuta, pastaj përmbajtja kullohet dhe çaji pihet në masën deri 2 doza të tilla në ditë. Po ky çaj mund të përdoret nga jashtë për qëllime të ndryshme (të përshkruara në vetitë).";
+}
+
+if (plantId === "50") {
+    image.src = "../../Images/rozmarina.jpg";
+    name.textContent = "Rozmarina";
+    information.textContent = "Vetitë:\n" + "Gjethet e rozmarinës përmbajnë vaj esencial (të pasur me pinene, kamfur etj.) dhe alkaloidin rozmaricinë. Ato kanë veti që stimulojnë përkohësisht veprimtarinë e trurit, frymëmarrjen dhe qarkullimin e gjakut (veprim eksitues), qetësojnë spazmat e muskulaturës së butë (veprim spazmolitik), nxisin zbrazjen e fshikëzës së tëmthit dhe ndihmojnë në rregullimin dhe lehtësimin e menstruacioneve. Mjekësia popullore, e mbështetur edhe shkencërisht, e përdor rozmarinën kundër hipertensionit. Nga gjethet e saj përgatiten preparate të ndryshme që përdoren nga jashtë për trajtimin e reumatizmës artikulare, ndrydhjeve, kontuzioneve, puçrrave skrofuloze, plagëve dhe ekzemave. Në formë gargare përdoret për mjekimin e aftës, ndërsa në formë ekstrakti alkoolik përdoret për masazh të kokës kundër rënies së flokëve. Në doza të larta, rozmarina mund të shkaktojë helmim; dëmton mukozën e zorrëve dhe veshkave, shkakton gjendje dehjeje dhe dridhje. Nuk duhet të përdoret gjatë shtatzënisë.\n\n\n" + "Përgatitja dhe përdorimi:\n" + "Një lugë kafeje deri në një lugë supe me drogë të grimcuar hidhet në një enë dhe i shtohet një gotë ujë i valuar. Ena mbulohet me kapak dhe lihet të qëndrojë për 15 minuta. Çaji, i përgatitur sipas kësaj doze dhe i ëmbëlsuar sipas dëshirës, pihet 1 deri në 3 herë në ditë.";
 }
 
 

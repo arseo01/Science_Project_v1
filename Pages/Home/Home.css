@@ -1,0 +1,87 @@
+/** Needed for every page */
+body {
+    background-color: #126c2c;
+}
+
+a, h2 {
+    color: #efe7d8;
+}
+
+#background_blur {
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#burger {
+    color: #efe7d8;
+}
+
+#menu {
+    position: fixed;
+    background: #104a13;
+    height: 100%;
+    width: 50%;
+    top: 50%;
+    transform: translate(-105%, -50%);
+    z-index: 1;
+}
+
+#menu.show {
+    animation: show 1s forwards;
+}
+
+#menu.hide {
+    animation: hide 1s forwards;
+}
+
+@keyframes show {
+    from {
+        transform: translate(-105%, -50%);
+    }
+    to {
+        transform: translate(-5%, -50%);
+    }
+}
+
+@keyframes hide {
+    from {
+        transform: translate(-5%, -50%);
+    }
+    to {
+        transform: translate(-105%, -50%);
+    }
+}
+
+#menus {
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    display: grid;
+    gap: 5px;
+}
+
+.buttons {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:active {
+    background-color: #004010;
+}
+/** Until here */
+
+#home {
+    background-color: #004010;
+}

@@ -40,6 +40,12 @@ a, h2 {
     animation: hide 1s forwards;
 }
 
+@media (min-width: 1024px) {
+    #menu {
+        width: 25%;
+    }
+}
+
 @keyframes show {
     from {
         transform: translate(-105%, -50%);

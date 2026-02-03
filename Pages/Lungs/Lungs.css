@@ -57,6 +57,12 @@ a, h2, p {
     }
 }
 
+@media (min-width: 1024px) {
+    #menu {
+        width: 25%;
+    }
+}
+
 #menus {
     position: fixed;
     top: 20px;

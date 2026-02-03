@@ -58,12 +58,15 @@ body {
     }
     #name {
         left: 0;
-        transform: none;   /* <-- important */
-        width: auto;       /* or a sane fixed/percent width */
-        justify-content: flex-start; /* optional */
+        transform: none;
+        width: auto;
+        justify-content: flex-start
     }
     #info {
         left: 0;
         width: 130%;
+    }
+    #menu {
+        width: 25%;
     }
 }

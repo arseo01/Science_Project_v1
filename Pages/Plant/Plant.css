@@ -2,11 +2,16 @@ body {
     background-color: #126c2c;
 }
 
-#back {
+#back_icon {
     display: block;
     height: 25px;
     width: 25px;
     color: #efe7d8;
+    scale: 3;
+    position: fixed;
+    top: 3%;
+    left: 5%;
+    z-index: 1;
 }
 
 #container {
@@ -29,16 +34,17 @@ body {
 
 #name {
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     width: 90%;
     white-space: pre-line;
     color: #efe7d8;
     display: flex;
     justify-content: center;
-    scale: 1.4;
 }
 
 #info {
-    position: absolute;
+    position: fixed;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
@@ -48,8 +54,9 @@ body {
 
 @media (min-width: 1024px) {
     #plant_img {
-        width: 45%;
-        left: 30%;
+        width: 50%;
+        left: 35%;
+        height: 900px;
     }
     #text {
         top: 0;
@@ -58,11 +65,12 @@ body {
     }
     #name {
         left: 0;
-        transform: none;   /* <-- important */
-        width: auto;       /* or a sane fixed/percent width */
-        justify-content: flex-start; /* optional */
+        transform: none;
+        width: auto;
+        justify-content: flex-start;
     }
     #info {
+        position: absolute;
         left: 0;
         width: 130%;
     }

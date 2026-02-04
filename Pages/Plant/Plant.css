@@ -45,9 +45,9 @@ body {
 
 #info {
     position: absolute;
-    left: 60%;
+    left: 65%;
     transform: translateX(-50%);
-    width: 100%;
+    width: 120%;
     white-space: pre-line;
     color: #efe7d8;
 }

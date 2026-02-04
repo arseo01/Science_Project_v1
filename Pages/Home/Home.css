@@ -20,6 +20,10 @@ a, h2 {
 
 #burger {
     color: #efe7d8;
+    scale: 2;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 #menu {

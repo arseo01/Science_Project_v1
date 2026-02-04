@@ -9,7 +9,7 @@ a, h2 {
 
 #background_blur {
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -61,6 +61,12 @@ a, h2 {
     }
     to {
         transform: translate(-105%, -50%);
+    }
+}
+
+@media (min-width: 1024px) {
+    #menu {
+        width: 25%;
     }
 }
 

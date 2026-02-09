@@ -122,15 +122,20 @@ a, h2, p {
 
 @media (min-width: 400px) {
     #container {
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
     }
 }
 
 @media (min-width: 701px) {
     #container {
+<<<<<<< HEAD
         grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
         column-gap: 100px;
         row-gap: 10px;
+=======
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+        gap: 100px;
+>>>>>>> 393212e49898972991a76098609ac311ce445be2
     }
 }
 

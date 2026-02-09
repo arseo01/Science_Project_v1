@@ -1,4 +1,3 @@
-/** Needed for every page */
 body {
     background-color: #126c2c;
 }
@@ -96,7 +95,6 @@ a, h2 {
 .button:active {
     background-color: #004010;
 }
-/** Until here */
 
 #home {
     background-color: #004010;

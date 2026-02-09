@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     } else if (plantId === "2") {
         image.src = "../../Images/i_zemrs.jpg";
         name.textContent = "Leonuri i zemrës";
-        information.textContent = "VETITË:\n" + "Bari i leonurit të zemrës përmban një lëndë të hidhur të quajtur leonurinë, rrëshirë, esencë, alkaloidin leonukardinë etj. Në saje të kësaj përmbajtjeje, bari i leonurit është 3 deri 4 herë më i efektshëm se rrënja e valerianës dhe ka veti kardiotonike, hipotonike dhe qetësuese. Duhet të përdoret gjithnjë sipas këshillës dhe nën mbikëqyrjen e mjekut. Këshillohet në rrahje të forta të zemrës, si dhe në shtrëngimin e saj, në ngacmimet nervore, në rastet e lëkundjes ose të rritjes së presionit të gjakut, në çrregullimet e menopauzës dhe në rastet e çrregullimit të urinimit. Veprimi diuretik mendohet se vjen nga veprimi i leonurit në muskulaturën e zemrës. Këshillohet në dhembjet e gjoksit që shoqërohen me të marrurit frymë dhe me ndjenjën e frikës nga vdekja (angina pektoris).\n" + "PËRGATITJA E PËRDORIMI:\n\n\n" + "Dy lugë çaji me bar të grirë imët hidhen në një enë ku shtohet një filxhan çaji me ujë që zien. Ena mbyllet me kapak dhe përmbajtja lihet për gjysmë ore në qetësi. Pastaj, lëngu kullohet dhe pihet. Merren një dozë e tillë në ditë. Droga mund të përdoret edhe në formë pluhuri; merren 1 deri 2 lugë kafeje në ditë.";
+        information.textContent = "VETITË:\n" + "Bari i leonurit të zemrës përmban një lëndë të hidhur të quajtur leonurinë, rrëshirë, esencë, alkaloidin leonukardinë etj. Në saje të kësaj përmbajtjeje, bari i leonurit është 3 deri 4 herë më i efektshëm se rrënja e valerianës dhe ka veti kardiotonike, hipotonike dhe qetësuese. Duhet të përdoret gjithnjë sipas këshillës dhe nën mbikëqyrjen e mjekut. Këshillohet në rrahje të forta të zemrës, si dhe në shtrëngimin e saj, në ngacmimet nervore, në rastet e lëkundjes ose të rritjes së presionit të gjakut, në çrregullimet e menopauzës dhe në rastet e çrregullimit të urinimit. Veprimi diuretik mendohet se vjen nga veprimi i leonurit në muskulaturën e zemrës. Këshillohet në dhembjet e gjoksit që shoqërohen me të marrurit frymë dhe me ndjenjën e frikës nga vdekja (angina pektoris).\n\n\n" + "PËRGATITJA E PËRDORIMI:\n" + "Dy lugë çaji me bar të grirë imët hidhen në një enë ku shtohet një filxhan çaji me ujë që zien. Ena mbyllet me kapak dhe përmbajtja lihet për gjysmë ore në qetësi. Pastaj, lëngu kullohet dhe pihet. Merren një dozë e tillë në ditë. Droga mund të përdoret edhe në formë pluhuri; merren 1 deri 2 lugë kafeje në ditë.";
     } else if (plantId === "3") {
         image.src = "../../Images/livando.jpg";
         name.textContent = "Livando";
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
     } else if (plantId === "26") {
         image.src = "../../Images/Bershelliza.jpg";
         name.textContent = "Bërshëlliza";
-        information.textContent = "VETITË:\n" + "Droga përmban rrëshirë me veti të forta laksative, tanine dhe lëndë me natyrë gomoze; nxit muskulaturën e lëmuar, hyn në mjetet terapeutike që shpejtojnë peristaltikën e zorrëve dhe rrisin rrjedhjen e tëmthit. Bari i bërshëlizës është laksativ i fortë e kolagog dhe duhet përdorur me kujdes.\n\n\n" + "PËRGATITJA E PËRDORIMI:\n" + "PËRGATITJA E PËRDORIMI:\n" + "1 lugë çaji me drogë të grimcuar hidhet në një enë ku shtohet 1 filxhan çaji me ujë që zien; përmbajtja lihet për 15 minuta, pastaj lëngu kullohet dhe pihet.";
+        information.textContent = "VETITË:\n" + "Droga përmban rrëshirë me veti të forta laksative, tanine dhe lëndë me natyrë gomoze; nxit muskulaturën e lëmuar, hyn në mjetet terapeutike që shpejtojnë peristaltikën e zorrëve dhe rrisin rrjedhjen e tëmthit. Bari i bërshëlizës është laksativ i fortë e kolagog dhe duhet përdorur me kujdes.\n\n\n" + "PËRGATITJA E PËRDORIMI:\n" + "1 lugë çaji me drogë të grimcuar hidhet në një enë ku shtohet 1 filxhan çaji me ujë që zien; përmbajtja lihet për 15 minuta, pastaj lëngu kullohet dhe pihet.";
     } else if (plantId === "27") {
         image.src = "../../Images/Borziloku.jpg";
         name.textContent = "Borziloku";
@@ -258,15 +258,3 @@ document.addEventListener('DOMContentLoaded', function() {
         information.textContent = "VEPRIMI:\n" + "Lulja e kamomilit përmban esencë me kamazulen, bisabolol, farnesen etj.; heterozide flavonike, substanca të hidhura, substanca kumarinike dhe apigeninë (me veprim spazmolitike), tanine, mucilagje, etj. Prej shumë kohë, droga është përdorur si mjet që largon gazët nga zorrët dhe që liron ngërçet (spazmat) e muskulaturës së butë të zorrëve dhe të stomakut (duke qetësuar dhe mbrojtur mukozën e organizmit, veçanërisht tek fëmijët). Ajo përdoret kundër heqjes së barkut, kundër pezmatimit të rrugëve urinare dhe si mjet që shton djersitjen dhe qetëson në tërësi e ul ngacmueshmërinë e sistemit nervor qendror. Ndihmon në mjekimin e acarimeve të ndryshme të lëkurës dhe të mukozave, të çibanëve, djegieve, etj.; përdoret edhe për shpëlarjen e syve, veshëve, hundës etj.\n\n\n" + "PERGATITJA E PËRDORIMI:\n" + "Një lugë supe me lule kamomili hidhet në një enë ku shtohet 1 gotë me ujë që valon; ena mbulohet me kapak dhe lihet 5–10 minuta duke e tundur herë pas here; lëngu kullohet dhe ëmbëlsohet sa më pak. Çaji i përgatitur pihet disa herë në ditë. Në mënyrë që të ruhen substancat vepruese, çaji i kamomilit nuk duhet të përgatitet duke u zier. Për fëmijë përdoren doza më të vogla dhe konkretisht 1 lugë kafeje me lule në një tas çaji me ujë, në formë përvalese që përgatitet si më sipër.";
     }
 });
-
-
-
-
-
-
-//* Copy:
-// else if (plantId === "") {
-//     image.src = "";
-//     name.textContent = "";
-//     information.textContent = "";
-// }

@@ -2,6 +2,10 @@ h2, p {
     color: #00380c;
 }
 
+a {
+    color: #efe7d8;
+}
+
 #background_blur {
     visibility: hidden;
     position: fixed;
@@ -136,9 +140,12 @@ h2, p {
 
 .name {
     display: flex;
-    justify-content: center;
     position: relative;
     top: -15px;
+    width: max-content;
+    font-weight: bold;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .plant {

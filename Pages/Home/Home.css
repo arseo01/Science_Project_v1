@@ -1,9 +1,5 @@
-body {
-    background-color: #126c2c;
-}
-
-a, h2 {
-    color: #efe7d8;
+h2, p, a {
+    color: #00380c;
 }
 
 #background_blur {

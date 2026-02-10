@@ -1,9 +1,5 @@
-body {
-    background-color: #126c2c;
-}
-
-a, h2, p {
-    color: #efe7d8;
+h2, p {
+    color: #00380c;
 }
 
 #background_blur {
@@ -96,10 +92,19 @@ a, h2, p {
 
 #title {
     position: absolute;
-    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     width: max-content;
+}
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 #container {
@@ -109,7 +114,7 @@ a, h2, p {
     transform: translateX(-50%);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    gap: 40px;
+    column-gap: 40px;
     width: 80%;
     box-sizing: border-box;
 }
@@ -126,7 +131,6 @@ a, h2, p {
         column-gap: 100px;
         row-gap: 10px;
         grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-        gap: 100px;
     }
 }
 

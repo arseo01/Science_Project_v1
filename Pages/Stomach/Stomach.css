@@ -3,7 +3,8 @@ h2, p {
 }
 
 a {
-    color: #efe7d8;
+    color: #000;
+    font-weight: bold;
 }
 
 #background_blur {
@@ -18,7 +19,6 @@ a {
 }
 
 #burger {
-    color: #efe7d8;
     scale: 2;
     position: relative;
     top: 10px;
@@ -81,7 +81,6 @@ a {
     width: 100%;
     background-color: transparent;
     text-decoration: none;
-    text-align: center;
     justify-content: center;
     align-items: center;
 }
@@ -142,7 +141,7 @@ a {
 .name {
     display: flex;
     position: relative;
-    top: -15px;
+    top: -20px;
     width: max-content;
     font-weight: bold;
     left: 50%;

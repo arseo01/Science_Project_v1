@@ -142,10 +142,11 @@ a {
     display: flex;
     position: relative;
     top: -20px;
-    width:  auto;
+    width: auto;
     font-weight: bold;
     left: 50%;
     transform: translateX(-50%);
+    justify-content: center;
 }
 
 .plant {

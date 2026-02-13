@@ -1,5 +1,5 @@
-h2, p {
-    color: #00380c;
+h1, h2, p {
+    color: #055300;
 }
 
 a {
@@ -53,12 +53,6 @@ a {
     animation: hide 1s forwards;
 }
 
-@media (min-width: 1024px) {
-    #menu {
-        width: 25%;
-    }
-}
-
 @keyframes show {
     from {
         transform: translate(-105%, -50%);
@@ -84,7 +78,6 @@ a {
     #title_img {
         width: 50%;
         height: 165%;
-        top: 50%;
     }
 }
 
@@ -115,24 +108,28 @@ a {
 }
 
 #title {
-    color: #000;
     display: flex;
     justify-content: center;
 }
 
 #intro {
-    display: flex;
     position: relative;
+    height: 20%;
     width: 70%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #f3ffd578;
-    padding: 30px;
-    border-radius: 30px;
+    background-color: #e5e7bda1;
+    padding: 25px;
+    border-radius: 20px
 }
 
 #intro_text {
-    width: 48%;
+    width: 45%;
+}
+
+#title_dotted_line {
+    border-top: 2px solid #b0c73c;
+    width: 100%;
 }
 
 #info_intro {
@@ -140,33 +137,52 @@ a {
 }
 
 #title_img {
-    width: 25%;
-    height: 80%;
+    height: 90%;
+    width: 50%;
     position: absolute;
-    right: 20px;
+    top: 50%;
+    right: 0;
     transform: translateY(-50%);
     border-radius: 20px;
 }
 
+@media (max-width: 375px) {
+    #title_img {
+        height: 70%;
+        width: 50%;
+        right: 0px;
+    }
+}
+
 #minimenu_container {
     position: relative;
-    top: 10px;
+    top: 5vh;
     left: 50%;
     transform: translateX(-50%);
-    height: 100px;
-    width: 90%;
+    height: 150px;
+    width: 85%;
     background-color: #b7fb0d52;
     display: flex;
-    gap: 5px;
-    padding: 20px;
+    gap: 5%;
+    padding: 15px;
     align-content: center;
     flex-wrap: wrap;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .box {
-    width: 33%;
+    width: 30%;
     height: 90%;
     background: #1e8d17;
-    border-radius: 20px;
+    border-radius: 15px;
+}
+
+.box_title, .box_text {
+    display: flex;
+    justify-content: center;
+    color: #cffbd9;
+}
+
+.box_title {
+    background-color: #409b39;
 }

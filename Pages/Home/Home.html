@@ -9,7 +9,7 @@
 </head>
 <body>
     <img src="../../Images/background.jpg" id="background" draggable="false">
-    <div id="background_blur" onpointerdown="blur_background()"></div>
+    <div id="background_blur" onpointerup="blur_background()"></div>
     <i id="burger" data-lucide="menu" onpointerup="open_menu()"></i>
     <div id="menu">
         <div id="menus">
@@ -25,33 +25,30 @@
     <h2 id="title">Bimët mjekësore në familje.</h2>
     <div id="intro"> <!--* Just put the information -->
         <div id="intro_text">
-            <h1 id="title_intro">ttttttttttttttt
+            <h1 id="title_intro">Hyrja
                 <div id="title_line"></div>
             </h1>
-            <p id="info_intro">jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</p>
+            <p id="info_intro">Bimët mjekësore kanë qenë pjesë e jetës së njeriut për mijëra vite. Ato janë përdorur nga kultura të ndryshme për trajtimin dhe parandalimin e sëmundjeve në mënyrë natyrale. Sot, studimi i bimëve mjekësore vazhdon të jetë i rëndësishëm, pasi shumë prej tyre përmbajnë substanca aktive me vlerë për mjekësinë moderne.</p>
         </div>
         <img src="../../Images/image_for_home_intro.png" id="title_img">
     </div>
 
-    <div id="minimenu_container"> <!--* Put the information for the boxes -->
-        <div class="box" id="box_1">
-            <h3 class="box_title">Text</h3>
-            <p class="box_text">Info text</p>
+    <div id="minimenu_container">
+        <div class="box" id="box_1" onpointerup="box_1()">
+            <h4 class="box_title">Çfarë janë bimët mjekësore?</h4>
         </div>
-        <div class="box" id="box_2">
-            <h3 class="box_title">Text</h3>
-            <p class="box_text">Info text</p>
+        <div class="box" id="box_2" onpointerup="box_2()">
+            <h4 class="box_title">Pse janë të rëndësishme?</h4>
         </div>
-        <div class="box" id="box_3">
-            <h3 class="box_title">Text</h3>
-            <p class="box_text">Info text</p>
+        <div class="box" id="box_3" onpointerup="box_3()">
+            <h4 class="box_title">Përdorimi tradicional dhe modern.</h4>
         </div>
     </div>
-    <div id="featured_things"> <!--* Put the information -->
+    <div id="featured_things">
         <img src="../../Images/image_for_home_feature.jpg" id="feature_img">
         <div id="featured_text">
-            <h1 id="featured_title">ttttttttttttttt</h1>
-            <p id="featured_info">eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+            <h1 id="featured_title"></h1>
+            <p id="featured_info"></p>
         </div>
     </div>
     <div id="galery_section">
@@ -82,6 +79,7 @@
 
 
 
+    <script src="Home.js"></script>
     <script src="../common.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>

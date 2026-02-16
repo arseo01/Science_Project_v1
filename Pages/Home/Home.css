@@ -124,7 +124,7 @@ a {
 }
 
 #intro_text {
-    width: 45%;
+    width: 55%;
 }
 
 #title_line, #feature_line {
@@ -238,12 +238,8 @@ a {
     border-radius: 15px;
 }
 
-.box_title, .box_text {
+.box_title {
     display: flex;
     justify-content: center;
     color: #cffbd9;
-}
-
-.box_title {
-    background-color: #409b39;
 }

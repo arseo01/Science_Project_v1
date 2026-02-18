@@ -20,9 +20,21 @@
 }
 
 #box_3_img {
-    position: fixed;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
-    height: 50%;
     width: 50%;
+}
+
+#box_3_title {
+    position: relative;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#box_3_info {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }

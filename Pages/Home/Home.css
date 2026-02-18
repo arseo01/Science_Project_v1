@@ -135,10 +135,6 @@ a {
     border-top: 2px solid #b0c73c;
 }
 
-#info_intro {
-    word-break: break-all;
-}
-
 #title_img, #feature_img {
     position: absolute;
     top: 50%;
@@ -195,6 +191,7 @@ a {
 
 #featured_things {
     top: 10vh;
+    height: fit-content;
     width: 90%;
     overflow: hidden;
     display: flex;
@@ -213,16 +210,6 @@ a {
     background-color: #b7fb0d52;
     padding: 15px;
     border-radius: 10px;
-}
-
-#galery_section::before {
-    left: 0;
-    background: linear-gradient(to right, #a4d856, transparent);
-}
-
-#galery_section::after {
-    right: 0;
-    background: linear-gradient(to left, #a4d856, transparent);
 }
 
 .track {
@@ -258,8 +245,4 @@ a {
     height: 90%;
     background: #1e8d17;
     border-radius: 15px;
-}
-
-.box_title {
-    padding: 20px;
 }

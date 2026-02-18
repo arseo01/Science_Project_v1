@@ -18,3 +18,11 @@
     left: 5%;
     z-index: 1;
 }
+
+#box_2_img {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50%;
+    width: 50%;
+}

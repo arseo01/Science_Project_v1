@@ -14,7 +14,6 @@ a {
     transform: translate(-50%, -50%);
     height: 100%;
     width: 100%;
-    z-index: -1;
 }
 
 #background_blur {
@@ -33,6 +32,7 @@ a {
     position: relative;
     top: 10px;
     left: 10px;
+    color: #ffffff;
 }
 
 #menu {
@@ -147,20 +147,19 @@ a {
 }
 
 #title_img {
-    height: 90%;
-    width: 50%;
+    height: 100%;
+    width: 30%;
     right: 0;
 }
 
 #feature_img {
     height: 80%;
-    width: 35%;
-    right: 5vh;
+    width: 25%;
+    right: 2vh;
 }
 
-#featured_title, #featured_info {
-    word-break: break-all;
-    width: 50%;
+#featured_text {
+    width: 70%;
 }
 
 #featured_title {
@@ -239,7 +238,5 @@ a {
 }
 
 .box_title {
-    display: flex;
-    justify-content: center;
-    color: #cffbd9;
+    padding: 20px;
 }

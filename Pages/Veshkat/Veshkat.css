@@ -14,7 +14,6 @@ a {
     transform: translate(-50%, -50%);
     height: 100%;
     width: 100%;
-    z-index: -1;
 }
 
 #background_blur {
@@ -33,6 +32,7 @@ a {
     position: relative;
     top: 10px;
     left: 10px;
+    color: #ffffff;
 }
 
 #menu {

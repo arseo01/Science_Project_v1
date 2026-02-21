@@ -116,21 +116,14 @@ a {
     left: 50%;
     transform: translateX(-50%);
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
     column-gap: 40px;
     width: 80%;
     box-sizing: border-box;
 }
 
-/* @media (min-width: 400px) {
-    #container {
-        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-    }
-} */
-
 @media (min-width: 701px) {
     #container {
-        grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
         column-gap: 100px;
         row-gap: 10px;
         grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
